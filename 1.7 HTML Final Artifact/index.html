@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petition towards homelessness</title>
+
+</head>
+<body>
+    <img src = "images/homelesspic.jpg" width="300" height="200" alt="homeless person">
+    <h1> Petition to help stop the homelessness crisis</h1>
+    <p> Homelessness has been a growing crisis in the Bay Area since the 1970-1980s. There's a number of factors that have allowed for this to happen, the main being a lack of affordable housing and resources.</p>
+    <p> Please sign the petition to help reduce homelessness in Oakland! </p>
+    <!-- the actual petition form-->
+     <form action="results.html" method="get">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="10" max="110" required>
+        <br><br>
+        <label for="support">How would you like to help?</label>
+        <select id="support" name="support" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="volunteer">Volunteer my time</option>>
+            <option value="donate">Donate money</option>
+            <option value="spread">Spread awareness</option>
+            <option value="macro">Join MACRO</option>
+            <option value="all">All of the above</option>
+            </select><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your comments here..."></textarea>
+        <br><br>
+        <input type="submit" value="Sign Petition">
+     </form>
+</body>
+</html>
