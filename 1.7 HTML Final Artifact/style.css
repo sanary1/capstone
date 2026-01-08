@@ -1,0 +1,29 @@
+h1 {
+    color:rgb(255, 255, 255);
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-align: center;
+}
+p {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+    color: #eab01c;
+    text-align: center;
+    
+}
+body {
+    background-color: #01213d;
+    margin: 20px;
+    padding: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
