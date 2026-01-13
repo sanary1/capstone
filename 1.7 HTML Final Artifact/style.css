@@ -41,7 +41,13 @@ ol{
 .section {
     width: 60%;
     margin: 20px auto;
-    padding: 12px;
     box-sizing: border-box;
     text-align: center;
+}
+
+#highlight {
+    background-color: #eab01c;
+    color: #01213d;
+    padding: 2px 4px;
+    border-radius: 3px;
 }
