@@ -1,0 +1,21 @@
+body{
+  /*background: gray;*/
+  background: url(https://images.unsplhttps://media.istockphoto.com/id/472563478/photo/underwater-world-with-corals-and-tropical-fish.jpg?s=612x612&w=0&k=20&c=W15vZgkJE5wmgrt2WY43-fS_whn32ouMc8wT18olEjk=ash.com/photo-1520741412100-24cd6c2832e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f4348fc639aed74754c68db44972844f&auto=format&fit=crop&w=1500&q=80);
+  background-repeat:no-repeat;
+}
+
+div{
+  background: rgb(255, 208, 208);
+  border: rgb(77, 76, 76);
+  border-width: medium; /* 10 px */
+  border-style: dashed;
+
+  }
+
+p{
+  color: rgb(0, 0, 0);
+}
+span{
+  background: red;
+  color: black;
+}
