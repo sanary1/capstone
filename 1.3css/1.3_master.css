@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: rgb(228, 213, 194);
+}
+
+h1 {
+    font-size: 36px;
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: green;
+}
+
+p {
+    font-size: 16px;
+    color: red;
+}
+
+.firstcontainer {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.secondcontainer {
+    margin: 30px;
+    padding: 20px;
+    border: 1px dashed rgb(210, 28, 28);
+}
